@@ -1,9 +1,10 @@
-var deliLine = [];
+var line = [];
 
-function takeANumber(line, name) {
- line.push(name);
+function takeANumber(line) {
+ line.push("a");
  
-  return "Welcome, " + name + "." + " You are number " + line.length + " in line.";
+  return "Welcome, You are number " + line.length + " in line.";
+  return `Welcome, ${name}. You are number ${line.length} in line`;
 }
 
 function nowServing(line) {
@@ -36,3 +37,5 @@ function currentLine(line) {
    // i++;
    // }
    // while (i < line.length);
+   
+   [1, Ada]
